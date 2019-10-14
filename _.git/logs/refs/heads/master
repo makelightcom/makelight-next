@@ -1,0 +1,27 @@
+0000000000000000000000000000000000000000 57d187fc590c76698fa72c29feb486e02450263a Stef Lewandowski <stef@stef.io> 1525028518 +0100	commit (initial): init
+57d187fc590c76698fa72c29feb486e02450263a 7d02baefe8108ea5c9d7a403da2d47a66cc2d4c2 Stef Lewandowski <stef@stef.io> 1525028535 +0100	commit: init
+7d02baefe8108ea5c9d7a403da2d47a66cc2d4c2 6de5af0252309460199d03f4cd7dd8ccb1293fa7 Stef Lewandowski <stef@stef.io> 1525158274 +0100	commit: config for now
+6de5af0252309460199d03f4cd7dd8ccb1293fa7 de5b464ed02166b60ccad419fcd33fccd5a220a3 Stef Lewandowski <stef@stef.io> 1525346428 +0100	commit: transitions
+de5b464ed02166b60ccad419fcd33fccd5a220a3 2dd5e2bcb5b1e66215fcc3efb270bbc541f4a7dc Stef Lewandowski <stef@stef.io> 1525968185 +0100	commit: use glamorous
+2dd5e2bcb5b1e66215fcc3efb270bbc541f4a7dc 253c94bd284933c350c504292c44e9a5cde37f17 Stef Lewandowski <stef@stef.io> 1526134442 +0100	commit: Add auth0
+253c94bd284933c350c504292c44e9a5cde37f17 d86150f19d416380974310d6ab970d869f2ab3dd Stef Lewandowski <stef@stef.io> 1526141151 +0100	commit: Pass in a prismic client via middleware
+d86150f19d416380974310d6ab970d869f2ab3dd 783b48b53d7d316bc189451bf71ef64d8bcdcb1b Stef Lewandowski <stef@stef.io> 1526744363 +0100	commit: fix for server rendered meta. Layout types
+783b48b53d7d316bc189451bf71ef64d8bcdcb1b db653746a38b869cd2c69f535ab8711b97cb7cdb Stef Lewandowski <stef@stef.io> 1527067377 +0100	commit: error tracking
+db653746a38b869cd2c69f535ab8711b97cb7cdb b35cfe0da7162c4adeda53bab5ce7074d6ab7482 Stef Lewandowski <stef@stef.io> 1527765713 +0100	commit: index pages
+b35cfe0da7162c4adeda53bab5ce7074d6ab7482 82c1cb68f5fa916859b67cd282097b63a1919d11 Stef Lewandowski <stef@stef.io> 1528545469 +0100	commit: sideways
+82c1cb68f5fa916859b67cd282097b63a1919d11 9ed4123ab1bb45978b35530ec8526f10fab634d1 Stef Lewandowski <stef@stef.io> 1528551638 +0100	commit: horizontal scroll programme page
+9ed4123ab1bb45978b35530ec8526f10fab634d1 0175a6e943861b5320e9da4a6587b01b74bbd123 Stef Lewandowski <stef@stef.io> 1528552095 +0100	commit: prog hoz
+0175a6e943861b5320e9da4a6587b01b74bbd123 9b8f5a858b2ec2b627ed4e2b11103412e3e3d818 Stef Lewandowski <stef@stef.io> 1528552754 +0100	commit: programme horiz
+9b8f5a858b2ec2b627ed4e2b11103412e3e3d818 4a3fea1c31a0c3b785400ff0b4bbdd8894ba4a7c Stef Lewandowski <stef@stef.io> 1529140935 +0100	commit: working
+4a3fea1c31a0c3b785400ff0b4bbdd8894ba4a7c a4483606552cac65f8fc49a375fe4aeaa3703f78 Stef Lewandowski <stef@stef.io> 1529142823 +0100	commit: service worker
+a4483606552cac65f8fc49a375fe4aeaa3703f78 faf69b63d8a1de9221320fdce1d1f29e9fba21aa Stef Lewandowski <stef@stef.io> 1529143145 +0100	commit: cache control service worker
+faf69b63d8a1de9221320fdce1d1f29e9fba21aa ab43b73e91d8c55ed18ba760a2e774dc5409b4e7 Stef Lewandowski <stef@stef.io> 1529317537 +0100	commit: pinterest metadata
+ab43b73e91d8c55ed18ba760a2e774dc5409b4e7 92ddbc5434a4be7706dcee8031f84bcfd8f6591a Stef Lewandowski <stef@stef.io> 1529317990 +0100	commit: author metadata
+92ddbc5434a4be7706dcee8031f84bcfd8f6591a f552e877bd02414ad519742be66fdcdf45b69f54 Stef Lewandowski <stef@stef.io> 1529434685 +0100	commit: reduced build
+f552e877bd02414ad519742be66fdcdf45b69f54 6d0f6591f45d8e5d9cf4efb86603e3f90f2cffe6 Stef Lewandowski <stef@stef.io> 1529476162 +0100	commit: purify
+6d0f6591f45d8e5d9cf4efb86603e3f90f2cffe6 f10f5dc57cf0fc09c842b14ef6d2cce72d92bab4 Stef Lewandowski <stef@stef.io> 1529496990 +0100	commit: add prettier
+f10f5dc57cf0fc09c842b14ef6d2cce72d92bab4 bc3b822541788f4f01342f5915fc6b14d5ab188f Stef Lewandowski <stef@stef.io> 1529497171 +0100	commit: config prettier
+bc3b822541788f4f01342f5915fc6b14d5ab188f 7756347394f2773dbf808a41c918f422769948bf Stef Lewandowski <stef@stef.io> 1529497930 +0100	commit: config prettier
+7756347394f2773dbf808a41c918f422769948bf 5c3ead3b39c14934ec87d2a4f0bf351b01a2d16d Stef Lewandowski <stef@stef.io> 1529497951 +0100	commit: config prettier
+5c3ead3b39c14934ec87d2a4f0bf351b01a2d16d a55079e968f0f80710ba9ba10661ea115e8a707c Stef Lewandowski <stef@stef.io> 1529933995 +0100	commit: podcast
+a55079e968f0f80710ba9ba10661ea115e8a707c 76bce92396c2da90ca02e3fd79550eef443bf904 Stef Lewandowski <stef@stef.io> 1530366909 +0100	commit: sale and nav

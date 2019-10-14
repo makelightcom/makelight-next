@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Webfonts Demo</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style type="text/css">
+	    body, textarea { font-family:Arial, Sans-Serif; line-height:1.6em; font-size:13px; }
+	    h1 { font-size:3em; }
+	    h2, h3 { color:#999; }
+	    .content { width:780px; margin: 20px auto 40px; }
+	    .demo { font-weight:bold; font-style:normal; color: #999 }
+	    .fontdisplay {font-size:2em;line-height:150%;margin: 10px 40px 0px 0px;}
+	    .guidelines { color:#333; }
+	    pre { padding:0 0 0 20px; }
+	    hr { border:0; border-bottom:1px solid #537094; margin:20px 0; }
+	    .link { color: #537094;text-decoration:none; font-weight:bold;}
+	    .uc {text-transform:uppercase}
+	    
+    </style>
+    <style type="text/css">
+    @font-face{
+        font-family:"HarmoniaSans W01 Light";
+        src:url("Fonts/0d3ddd7f-1365-4614-b4cd-3109f95fba46.eot?#iefix");
+        src:url("Fonts/0d3ddd7f-1365-4614-b4cd-3109f95fba46.eot?#iefix") format("eot"),url("Fonts/cedea5d5-db27-4dc9-8d34-c20cce3ce9c2.woff2") format("woff2"),url("Fonts/b8b58a75-9a85-4560-a2f2-bfb3f2f2fc98.woff") format("woff"),url("Fonts/ba31de29-149c-4049-947e-9c3f1ecaa8d2.ttf") format("truetype"),url("Fonts/2b103519-dc70-43c5-84eb-95348ed9f55a.svg#2b103519-dc70-43c5-84eb-95348ed9f55a") format("svg");
+    }
+    @font-face{
+        font-family:"HarmoniaSans W01";
+        src:url("Fonts/a5b66773-6a36-469a-8f45-e08448130bf2.eot?#iefix");
+        src:url("Fonts/a5b66773-6a36-469a-8f45-e08448130bf2.eot?#iefix") format("eot"),url("Fonts/3ba56aa2-c01d-4bfc-aae4-eac13ee2ebbc.woff2") format("woff2"),url("Fonts/51f1c13a-2c9b-4cba-9cbf-93317cbd3e10.woff") format("woff"),url("Fonts/7b11ae47-5126-4c06-8f61-fbee4b6a8461.ttf") format("truetype"),url("Fonts/d6936923-56f5-4284-bb73-3230f8a49594.svg#d6936923-56f5-4284-bb73-3230f8a49594") format("svg");
+    }
+    @font-face{
+        font-family:"HarmoniaSans W01 SemiBd";
+        src:url("Fonts/cd8a7ca1-a1a1-4902-9824-18890229b553.eot?#iefix");
+        src:url("Fonts/cd8a7ca1-a1a1-4902-9824-18890229b553.eot?#iefix") format("eot"),url("Fonts/08591efc-f43b-4dc0-b066-e39bb77fd0d9.woff2") format("woff2"),url("Fonts/bb2822e9-2055-4c95-bd66-438a33d71a60.woff") format("woff"),url("Fonts/1796e78c-3f90-4d62-a510-d2f1ebc88d86.ttf") format("truetype"),url("Fonts/db703c36-bf80-4647-8190-abc666705582.svg#db703c36-bf80-4647-8190-abc666705582") format("svg");
+    }
+    @font-face{
+        font-family:"HarmoniaSansW01-SemiBdI";
+        src:url("Fonts/922fefb6-cf43-454a-812d-524362ae522f.eot?#iefix");
+        src:url("Fonts/922fefb6-cf43-454a-812d-524362ae522f.eot?#iefix") format("eot"),url("Fonts/26998c9c-98b7-46e1-a2f9-391cb0bcc27c.woff2") format("woff2"),url("Fonts/b28a746b-254c-4d88-ac9d-aa7c5cdcebae.woff") format("woff"),url("Fonts/bbc4c213-7a42-4e35-b2fa-869ca186e5a6.ttf") format("truetype"),url("Fonts/43780f0f-8e88-49dc-a7c4-9ce01aa44cd4.svg#43780f0f-8e88-49dc-a7c4-9ce01aa44cd4") format("svg");
+    }
+    @font-face{
+        font-family:"HarmoniaSans W01 Bold";
+        src:url("Fonts/afb7b057-b4c8-4f37-9611-323efb16599e.eot?#iefix");
+        src:url("Fonts/afb7b057-b4c8-4f37-9611-323efb16599e.eot?#iefix") format("eot"),url("Fonts/d13c38b0-30e7-47f0-bc36-e2b7752b59e3.woff2") format("woff2"),url("Fonts/50cd1762-b122-47c3-bce4-8e385f6a6db0.woff") format("woff"),url("Fonts/2becde0a-efb7-469b-a992-fcebff7f02bb.ttf") format("truetype"),url("Fonts/ffa1b212-f1e5-4934-89b5-20243a9f94af.svg#ffa1b212-f1e5-4934-89b5-20243a9f94af") format("svg");
+    }
+</style>
+<script type="text/javascript">
+var MTIProjectId='b1fd63f5-19b0-4fcb-8bcf-f57444d2d249';
+ (function() {
+        var mtiTracking = document.createElement('script');
+        mtiTracking.type='text/javascript';
+        mtiTracking.async='true';
+         mtiTracking.src='mtiFontTrackingCode.js';
+        (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild( mtiTracking );
+   })();
+</script>
+</head>
+<body>
+    <div class="content">
+        <h1 class="demo">Fonts.com Web fonts</h1>
+        <p style="margin-top: -10px; font-size: 1.5em; color: #666"><b>@font-face implementation instructions</b></p>
+        <p>The asynchronous script loads in the background allowing the other elements of your website to load first and undeterred.</p>
+        <hr />
+        <p class="uc">The fonts contained in this kit are:</p>
+        <div class="fontdisplay">
+            <div style="font-family:'HarmoniaSans W01 Light';"> Harmonia Sans™ W01 Light </div>
+<div style="font-family:'HarmoniaSans W01';"> Harmonia Sans™ W01 Regular </div>
+<div style="font-family:'HarmoniaSans W01 SemiBd';"> Harmonia Sans™ W01 Semi Bold </div>
+<div style="font-family:'HarmoniaSans W01 Bold';"> Harmonia Sans™ W01 Bold </div>
+<div style="font-family:'HarmoniaSansW01-SemiBdI';"> Harmonia Sans™ W01 Semi Bold Italic </div>
+
+        </div>
+        <hr />
+        Click here for <a class="link uc" href="demo.htm">css only</a> web fonts implementation
+        <hr />
+        <div class="guidelines">
+            <h2>CSS Implementation Guidelines</h2>
+            <p>You and any third party web font hosting service are responsible for ensuring that the font software in the self-hosting kit, in its original format, can only be used on the Web Sites for which the self-hosting kit was downloaded and cannot be used or referenced by any other web site. This includes, but is not limited to installing adequate technical protection measures that restrict the use and/or access to the font software, for instance by utilizing JavaScript or access control mechanism for cross-origin resource sharing and protecting against use on web sites other than the Web Sites for which the self-hosting kit was downloaded by restricting domain access only to such Web Sites. You must also retain the pageview tracking code on any Web Site that you self-host. In the event this Agreement terminates for any reason, the font software included with the self-hosting kit must be deleted from the server and all copies must be destroyed or returned to Monotype Imaging.</p>
+            <p>View <a class="link" href="http://www.fonts.com/info/legal/eula/web-fonts" target="_blank">"WEB FONT SOFTWARE" LICENSE AGREEMENT</a></p>
+            <h2>Asynchronous Implementation (Requires JavaScript)</h2>
+            <p>Font file names have been obfuscated to protect the font software. You can identify font format based on file ending:</p>
+            <ul>
+                <li>1 - TrueType (ttf)</li>
+                <li>2 - Embedded OpenType (eot)</li>
+                <li>3 - Web Open Font Format (woff)</li>
+                <li>4 - Web Open Font Format version 2 (woff2)</li>
+                <li>5 - Scalable Vector Graphics (svg)</li>
+                
+            </ul>
+            <p class="uc" style="margin: 20px 0px -20px;"><b>Copy and paste following code in head section of the page</b></p>
+            <hr />
+            <textarea style="width: 830px; height: 350px; border: 1 #fff solid; background-color: #fcfcfc;"><style type="text/css">
+    @font-face{
+        font-family:"HarmoniaSans W01 Light";
+        src:url("Fonts/0d3ddd7f-1365-4614-b4cd-3109f95fba46.eot?#iefix");
+        src:url("Fonts/0d3ddd7f-1365-4614-b4cd-3109f95fba46.eot?#iefix") format("eot"),url("Fonts/cedea5d5-db27-4dc9-8d34-c20cce3ce9c2.woff2") format("woff2"),url("Fonts/b8b58a75-9a85-4560-a2f2-bfb3f2f2fc98.woff") format("woff"),url("Fonts/ba31de29-149c-4049-947e-9c3f1ecaa8d2.ttf") format("truetype"),url("Fonts/2b103519-dc70-43c5-84eb-95348ed9f55a.svg#2b103519-dc70-43c5-84eb-95348ed9f55a") format("svg");
+    }
+    @font-face{
+        font-family:"HarmoniaSans W01";
+        src:url("Fonts/a5b66773-6a36-469a-8f45-e08448130bf2.eot?#iefix");
+        src:url("Fonts/a5b66773-6a36-469a-8f45-e08448130bf2.eot?#iefix") format("eot"),url("Fonts/3ba56aa2-c01d-4bfc-aae4-eac13ee2ebbc.woff2") format("woff2"),url("Fonts/51f1c13a-2c9b-4cba-9cbf-93317cbd3e10.woff") format("woff"),url("Fonts/7b11ae47-5126-4c06-8f61-fbee4b6a8461.ttf") format("truetype"),url("Fonts/d6936923-56f5-4284-bb73-3230f8a49594.svg#d6936923-56f5-4284-bb73-3230f8a49594") format("svg");
+    }
+    @font-face{
+        font-family:"HarmoniaSans W01 SemiBd";
+        src:url("Fonts/cd8a7ca1-a1a1-4902-9824-18890229b553.eot?#iefix");
+        src:url("Fonts/cd8a7ca1-a1a1-4902-9824-18890229b553.eot?#iefix") format("eot"),url("Fonts/08591efc-f43b-4dc0-b066-e39bb77fd0d9.woff2") format("woff2"),url("Fonts/bb2822e9-2055-4c95-bd66-438a33d71a60.woff") format("woff"),url("Fonts/1796e78c-3f90-4d62-a510-d2f1ebc88d86.ttf") format("truetype"),url("Fonts/db703c36-bf80-4647-8190-abc666705582.svg#db703c36-bf80-4647-8190-abc666705582") format("svg");
+    }
+    @font-face{
+        font-family:"HarmoniaSansW01-SemiBdI";
+        src:url("Fonts/922fefb6-cf43-454a-812d-524362ae522f.eot?#iefix");
+        src:url("Fonts/922fefb6-cf43-454a-812d-524362ae522f.eot?#iefix") format("eot"),url("Fonts/26998c9c-98b7-46e1-a2f9-391cb0bcc27c.woff2") format("woff2"),url("Fonts/b28a746b-254c-4d88-ac9d-aa7c5cdcebae.woff") format("woff"),url("Fonts/bbc4c213-7a42-4e35-b2fa-869ca186e5a6.ttf") format("truetype"),url("Fonts/43780f0f-8e88-49dc-a7c4-9ce01aa44cd4.svg#43780f0f-8e88-49dc-a7c4-9ce01aa44cd4") format("svg");
+    }
+    @font-face{
+        font-family:"HarmoniaSans W01 Bold";
+        src:url("Fonts/afb7b057-b4c8-4f37-9611-323efb16599e.eot?#iefix");
+        src:url("Fonts/afb7b057-b4c8-4f37-9611-323efb16599e.eot?#iefix") format("eot"),url("Fonts/d13c38b0-30e7-47f0-bc36-e2b7752b59e3.woff2") format("woff2"),url("Fonts/50cd1762-b122-47c3-bce4-8e385f6a6db0.woff") format("woff"),url("Fonts/2becde0a-efb7-469b-a992-fcebff7f02bb.ttf") format("truetype"),url("Fonts/ffa1b212-f1e5-4934-89b5-20243a9f94af.svg#ffa1b212-f1e5-4934-89b5-20243a9f94af") format("svg");
+    }
+</style>
+<script type="text/javascript">
+var MTIProjectId='b1fd63f5-19b0-4fcb-8bcf-f57444d2d249';
+ (function() {
+        var mtiTracking = document.createElement('script');
+        mtiTracking.type='text/javascript';
+        mtiTracking.async='true';
+         mtiTracking.src='mtiFontTrackingCode.js';
+        (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild( mtiTracking );
+   })();
+</script></textarea>
+            <h3>Licensing information should be included within the CSS</h3>
+<pre>/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/</pre>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "presets": [
+    "next/babel",
+  ],
+  "plugins": [
+    [ "inline-react-svg" ],
+    ["styled-jsx/babel", { "optimizeForSpeed": true }],
+    ["babel-plugin-tailwind"],
+    ["@babel/plugin-proposal-object-rest-spread"]
+  ]
+}
