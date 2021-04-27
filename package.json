@@ -76,7 +76,7 @@
     "react-soundplayer": "^1.0.4",
     "react-sticky-el": "^1.0.17",
     "react-transition-group": "^2.3.1",
-    "redis": "^2.8.0",
+    "redis": "^3.1.1",
     "redis-lru": "^0.5.0",
     "sass-loader": "^7.0.3",
     "shopify-buy": "^1.4.0",
