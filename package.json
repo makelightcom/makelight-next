@@ -25,7 +25,7 @@
     "config": "^1.30.0",
     "cssnano": "^3.10.0",
     "data-prefetch-link": "^1.1.2",
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "express-interceptor": "^1.2.0",
     "express-modify-response": "^1.0.2",
     "express-redis-cache": "^1.1.1",
